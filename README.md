@@ -13,8 +13,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: []()
+- Solution URL: [repo url](https://github.com/ketannegi/clipboard-landing-page-frontend-mentor.git)
+- Live Site URL: [git hub website](https://ketannegi.github.io/clipboard-landing-page-frontend-mentor/)
 
 ## My process
 
