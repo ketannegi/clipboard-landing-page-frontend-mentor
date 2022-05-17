@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "bai Jamjuree", sans-serif;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3em 0;
+  padding-bottom: 0;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  width: 5em;
+}
+.copy_main {
+  width: 500px;
+  max-width: calc(90%);
+  margin: 2em auto;
+  text-align: center;
+}
+.television {
+  display: flex;
+  gap: 1em;
+}
+.television img {
+  width: 700px;
+  max-width: 100%;
+  transform: translateX(-25px);
+}
+.television_content {
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: min(400px, calc(100% - 10px));
+}
+.big_img {
+  width: 750px;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.preview_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+  margin: 3em;
+}
+.preview_content div {
+  width: 300px;
+  text-align: center;
+}
+.brand_img img {
+  width: 150px;
+}
+.preview_box {
+}
+.preview_box > * {
+  margin-top: 0.8em;
+  /* border: 1px solid; */
+}
+footer {
+  padding: 2em;
+  background-color: hsl(201, 11%, 66%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+footer > * {
+}
+footer p img {
+  margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .television img {
+    width: 500px;
+  }
+  .television_content {
+    width: min(400px, calc(80% - 10px));
+  }
+}
+@media (max-width: 750px) {
+  .television {
+    display: block;
+  }
+  .television img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    transform: translateX(0);
+  }
+  .television_content {
+    padding: 2em 0;
+    display: block;
+
+    width: 100%;
+  }
+
+  .television_content > * {
+    width: min(400px, 90%);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .preview_content {
+    gap: 2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(./images/bg-header-mobile.png);
+  }
+}
